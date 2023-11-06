@@ -16,19 +16,19 @@
 <hr>
 
 * [Herramientas utilizadas](#descripción-del-proyecto)
+  
+* [Tecnologías utilizadas](#tecnologías-utilizadas)
 
 * [Utilidades](#Estado-del-proyecto)
 
 * [Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
 
 * [Acceso al proyecto](#acceso-proyecto)
-
-* [Tecnologías utilizadas](#tecnologías-utilizadas)
   
 * [Conclusión](#conclusión)
 
-## Descripcion del programa 
+## :hammer: Herramientas utilizadas
 
-## Herramientas utilizadas
-
+## :heavy_check_mark: Tecnologicas utilizadas
+ 
 ## Utilidades
