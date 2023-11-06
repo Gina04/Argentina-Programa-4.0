@@ -36,7 +36,7 @@
 * JDK Java 17
 * Servidor de Base de Datos - MySQ
  
-## Funcionalidades del proyecto 
+## :pencil: Funcionalidades del proyecto 
 * Validador de Inscripciones según Correlatividades
 * Transformador (Interfaces funcionales y Expresiones Lambdas) 
 * 
