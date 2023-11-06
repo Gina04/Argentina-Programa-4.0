@@ -15,11 +15,11 @@
 
 <hr>
 
-* [Herramientas utilizadas](#descripción-del-proyecto)
+* [Herramientas utilizadas](#hammer-herramientas-utilizadas)
   
-* [Tecnologías utilizadas](#tecnologías-utilizadas)
+* [Tecnologías utilizadas](#:heavy_check_mark:-Tecnologicas-utilizadas)
 
-* [Utilidades](#Estado-del-proyecto)
+* [Funcionalidades del proyecto](#Estado-del-proyecto)
 
 * [Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
 
@@ -28,7 +28,15 @@
 * [Conclusión](#conclusión)
 
 ## :hammer: Herramientas utilizadas
+* IntelliJ (Versión Community)
+* Cliente SQL - MySQL WorkBench
+* Github
 
 ## :heavy_check_mark: Tecnologicas utilizadas
+* JDK Java 17
+* Servidor de Base de Datos - MySQ
  
-## Utilidades
+## Funcionalidades del proyecto 
+* Validador de Inscripciones según Correlatividades
+* Transformador (Interfaces funcionales y Expresiones Lambdas) 
+* 
