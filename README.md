@@ -39,4 +39,4 @@
 ## :pencil: Funcionalidades del proyecto 
 * Validador de Inscripciones según Correlatividades
 * Transformador (Interfaces funcionales y Expresiones Lambdas) 
-* 
+* Concatenar Por Longitud (Lambda y aplanacion de colecciones)
