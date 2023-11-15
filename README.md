@@ -35,6 +35,7 @@
 ## :heavy_check_mark: Tecnologicas utilizadas
 * JDK Java 17
 * Servidor de Base de Datos - MySQ
+* JUnit
  
 ## :pencil: Funcionalidades del proyecto 
 * Validador de Inscripciones según Correlatividades
