@@ -13,7 +13,7 @@ public class Cancion {
   int likes;
 
   int horasReproduccion; //24hs
-  Popularidad tipoPopularidad; // new cancionesPopulares.EnTendencia(); new cancionesPopulares.EnAuge()
+  Popularidad tipoPopularidad = new Normal(); // new cancionesPopulares.EnTendencia(); new cancionesPopulares.EnAuge()
 
 
   // Método para mostrar detalles de la canción utilizando su tipo de popularidad
@@ -22,10 +22,15 @@ public class Cancion {
 
   }
 
-
-  public void cambiarPopu(Popularidad popularidad){
-    this.tipoPopularidad =  popularidad;
-
+  //cambio la popularidad de la cancion, segun si cumple una condicion u otra
+  //estas condiciones las manejor en cada tipo de popularidad
+  // ya que cada una de ellas las maneja de una manera distinta
+  public void cambpop(){
+    if(this.getTipoPopularidad().cumpleCondicion(this)){
+      this.setTipoPopularidad(this.getTipoPopularidad().cambiar());
+    } else if (this.getTipoPopularidad().cumpleMasDislike(this)) { // aca solo voy a chequear cuando este en la popularidad Tendencia
+      this.setTipoPopularidad(new Normal()); //tirado de los pelos, esta solucion!!!!!!!!!!!!!!!!!!!!!
+    }
   }
 
 
@@ -103,7 +108,7 @@ public class Cancion {
   }
 
   //Constructor
-  public Cancion(String nombredelArtista, String títuloDeLaCanción, String nombreDelAlbum, int anioDelAlbum, int cantidadReproducciones, int dislikes, int likes, int horasReproduccion, Popularidad tipoPopularidad) {
+  public Cancion(String nombredelArtista, String títuloDeLaCanción, String nombreDelAlbum, int anioDelAlbum, int cantidadReproducciones, int dislikes, int likes, int horasReproduccion) {
     this.nombredelArtista = nombredelArtista;
     this.títuloDeLaCanción = títuloDeLaCanción;
     this.nombreDelAlbum = nombreDelAlbum;
@@ -112,7 +117,6 @@ public class Cancion {
     this.dislikes = dislikes;
     this.likes = likes;
     this.horasReproduccion = horasReproduccion;
-    this.tipoPopularidad = tipoPopularidad;
   }
 
 

@@ -30,9 +30,8 @@ public class Normal extends Popularidad {
   }
   // Implementación del método para cambiar la popularidad de la canción
   @Override
-  public void cambiar(Cancion cancion) {
-    if(this.cumpleCondicion(cancion))
-    cancion.cambiarPopu(new EnAuge());
+  public Popularidad cambiar() {
+      return new EnAuge();
   }
 
 }

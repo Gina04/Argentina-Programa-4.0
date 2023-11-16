@@ -27,18 +27,14 @@ public class EnAuge extends Popularidad {
     return cancion.getCantidadReproducciones() > 50000 && cancion.getLikes()> 20.000;
   }
 
-  public Boolean tieneMasDislike(Cancion cancion){
+  @Override
+  public Boolean cumpleMasDislike(Cancion cancion){
     return cancion.getDislikes() > 5000;
-
+  }
+  @Override
+  public Popularidad cambiar() {
+    return new EnTendencia();
   }
 
-  @Override
-  public void cambiar(Cancion cancion) {
-    if(this.cumpleCondicion(cancion)){
-      cancion.cambiarPopu(new EnTendencia());
-    } else if (this.tieneMasDislike(cancion)) {
-      cancion.cambiarPopu(new Normal());
-    }
-    }
 
 }

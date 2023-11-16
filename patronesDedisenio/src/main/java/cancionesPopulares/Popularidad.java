@@ -16,9 +16,11 @@ public abstract class Popularidad {
   public abstract Icono icono();
   public abstract String leyenda(Cancion unaCancion);
   public abstract Boolean cumpleCondicion(Cancion cancion);
-  public Boolean tieneMasDislike(Cancion cancion){
+  //Aca siempre va hacer falso para la pupularidad Normal y En Tendencia, solo se va a sobre
+  //escribir el metodo en EnAuge (en caso de que que se cumpla criterio)
+  public Boolean cumpleMasDislike(Cancion cancion){
     return false;
   }
-  public abstract void cambiar(Cancion cancion);
+  public abstract Popularidad cambiar();
 
 }

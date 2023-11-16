@@ -10,7 +10,7 @@ public class EnTendencia extends Popularidad {
     return nombre;
   }
 
-  String nombre = "Tendencia";
+  String nombre = "tendencia";
 
   @Override
   public Icono icono() {
@@ -29,9 +29,10 @@ public class EnTendencia extends Popularidad {
   }
 
   @Override
-  public void cambiar(Cancion cancion) {
-    if(this.cumpleCondicion(cancion)){
-      cancion.cambiarPopu(new Normal());
-    }
+  public Popularidad cambiar() {
+      return new Normal();
+
   }
+
+
 }
