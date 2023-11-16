@@ -36,8 +36,10 @@
 * JDK Java 17
 * Servidor de Base de Datos - MySQ
 * JUnit
+* Maven 
  
 ## :pencil: Funcionalidades del proyecto 
 * Validador de Inscripciones según Correlatividades
 * Transformador (Interfaces funcionales y Expresiones Lambdas) 
 * Concatenar Por Longitud (Lambda y aplanacion de colecciones)
+* Patrones de diseño (Patrón State, Patrón Template Method)
