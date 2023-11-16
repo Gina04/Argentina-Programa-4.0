@@ -31,6 +31,7 @@
 * IntelliJ (Versión Community)
 * Cliente SQL - MySQL WorkBench
 * Github
+* Xampp
 
 ## :heavy_check_mark: Tecnologicas utilizadas
 * JDK Java 17
