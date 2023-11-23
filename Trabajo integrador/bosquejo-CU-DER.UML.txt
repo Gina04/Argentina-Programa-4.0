@@ -1,0 +1,69 @@
+Casos de Usos
+
+Soporte Operativo: (SAP, Tango,etc) y Sistemas operativos 
+ - Modulo Generación incidente
+ - Modulo de seguimiento incidentes
+
+RRHH 
+ Alta tecnicos (nombre, edad, especialidad/es)
+ Baja tecnico
+ Modificacion tecnico
+ Emitir reporte
+
+Técnico 
+Resolver incidente(marcar estado)
+
+Area Comercial
+ Alta cliente
+ Baja cliente
+ Modificar datos cliente
+
+Mesa ayuda(operador)
+ Atiende llamada
+ Ingresa incidentes reportados(asignar tecnico calificado)
+ 
+
+
+Diagrama Entidad Relacion (DER)
+
+TÉCNICO
+- Nombre
+- Especialidades=[]
+- medioNotificacion //mail, whatsApp
+- incidentesResueltos 
+- incidentesNoResueltos
+
+ESPECIALIDAD
+- nombre  
+
+CLIENTE   
+- Razon social 
+- CUIT
+- ServiciosContratados
+
+
+SERVICIO
+
+
+PROBLEMA
+-nombreProblema
+-especialidad= []
+-HoraEstimadaResolucion
+
+INCIDENTE 
+- Descripción
+- TipoServicio
+- TipoProblema
+- Tecnicos
+- Estado
+- HoraEstimadaResolucion
+- HoraRealResolucion
+- nivelComplejidad
+- Fecha de Creación
+
+
+
+
+ 
+
+
